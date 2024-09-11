@@ -32,17 +32,17 @@ def ask_operation():
     print("3. Multiplication")
     print("4. Division")
     
-    choice = input("Enter your choice (1/2/3/4): ")
+    choice = input("Enter your choice: ")
 
-    if choice == '1':
+    if choice == 'Addition':
         Addition()
-    elif choice == '2':
+    elif choice == 'Subtraction':
         Subtraction()
-    elif choice == '3':
+    elif choice == 'Multiplication':
         Multiplication()
-    elif choice == '4':
+    elif choice == 'Division':
         Division()
     else:
-        print("Invalid input. Please choose a valid option.")
+        print("Choose a valid option.")
 
 ask_operation()
