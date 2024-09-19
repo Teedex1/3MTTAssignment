@@ -1,0 +1,78 @@
+/* Styling for the header */
+h1 {
+    font-family: 'Arial', sans-serif;
+    color: #333399;
+    font-size: 36px;
+}
+
+/* Styling for the subtitle */
+h2 {
+    font-family: 'Arial', sans-serif;
+    color: #444444;
+    font-size: 28px;
+}
+
+/* Styling for the paragraph */
+p {
+    font-family: 'Verdana', sans-serif;
+    color: #666666;
+    font-size: 16px;
+}
+
+/* Bold and italicized text inside the paragraph */
+strong {
+    color: #ff0000; /* Bold text will be red */
+}
+
+em {
+    color: #0066cc; /* Italic text will be blue */
+}
+
+/* Adding border and padding around the image */
+img {
+    border: 2px solid #000000;
+    padding: 10px;
+    display: block; /* Ensures it doesn't get inline with text */
+    margin: 10px 0;
+}
+
+/* Styling for the ordered list */
+ol {
+    font-family: 'Tahoma', sans-serif;
+    font-size: 18px;
+    color: #333333;
+    margin-left: 20px;
+}
+
+/* Styling for unordered nested lists */
+ul {
+    list-style-type: circle;
+    color: #cc0000;
+}
+
+/* Styling for list items */
+li {
+    font-family: 'Tahoma', sans-serif;
+    font-size: 18px;
+}
+
+/* Styling for internal and external links */
+a {
+    color: #0066cc; /* Blue link color */
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline; /* Underline on hover */
+}
+
+/* Styling for the footer */
+footer {
+    background-color: #f0f0f0;
+    padding: 10px;
+    text-align: center;
+    margin-top: 20px;
+    font-family: 'Verdana', sans-serif;
+    color: #444444;
+    border-top: 1px solid #dddddd;
+}
